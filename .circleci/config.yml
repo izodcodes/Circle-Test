@@ -41,7 +41,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: echo " Hello World!" > output.txt
+          command: echo " Hello World!" > ~/output.txt
       - persist to workspace:
           root: ~/
           paths: 
